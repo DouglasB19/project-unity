@@ -9,6 +9,7 @@ public class AreaTransitions : MonoBehaviour
     private GameObject area;
     public GameObject anotherArea;
 
+    public string name;
 
     private CameraController cam;
     public Vector2 newMinPos;
@@ -62,7 +63,8 @@ public class AreaTransitions : MonoBehaviour
             other.GetComponent<Animator>().enabled = true;
             other.GetComponent<PlayerController>().enabled = true;
 
-            //StartCoroutine(area.GetComponent<TextCanvas>().ShowArea("SUCO"));
+            StopAllCoroutines();
+            StartCoroutine(area.GetComponent<TextCanvas>().ShowArea(name));
             //other.transform.position += movePlayer;
         }
     }

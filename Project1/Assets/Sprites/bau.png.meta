@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: fbc7a0586230bf24cb951b5a38e3dd05
+guid: 4ebcab53fb791a846a3d3982976ea4c4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1387403343120691076
-    second: estrada_0
-  - first:
-      213: 3433680847258631884
-    second: estrada1_0
+      213: 8735275200253643579
+    second: bau_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -69,7 +66,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 256
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -81,7 +78,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 256
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -95,13 +92,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: estrada1_0
+      name: bau_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 16
-        height: 16
+        x: 5
+        y: 6
+        width: 25
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -109,8 +106,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cceb9e4c982e6af20800000000000000
-      internalID: 3433680847258631884
+      spriteID: b3bc56e538ee93970800000000000000
+      internalID: 8735275200253643579
       vertices: []
       indices: 
       edges: []

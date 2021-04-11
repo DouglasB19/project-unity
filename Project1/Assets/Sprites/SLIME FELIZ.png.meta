@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: e989bfefd1948654da039d380b0536f5
+guid: 876c60bcfdd638144af4891ad698c2d7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5666255500733775707
-    second: pedra 1_0
+      213: 5357758914863137338
+    second: SLIME FELIZ_0
   - first:
-      213: 7662493194534126000
-    second: pedra 1_1
+      213: 5998908200813389941
+    second: SLIME FELIZ_1
   - first:
-      213: -8557141566540142625
-    second: pedra 1_2
+      213: -2838766128266942492
+    second: SLIME FELIZ_2
   - first:
-      213: 1525505085334530300
-    second: pedra 1_3
+      213: -6646493058975450108
+    second: SLIME FELIZ_3
   - first:
-      213: 4011100953438995857
-    second: pedra 1_4
+      213: 1905375433910748401
+    second: SLIME FELIZ_4
   - first:
-      213: -6220404552604799533
-    second: pedra 1_5
+      213: -8625615010525669236
+    second: SLIME FELIZ_5
   - first:
-      213: 2018742158612346751
-    second: pedra 1_6
+      213: -3838630203975364957
+    second: SLIME FELIZ_6
   - first:
-      213: -5517736949767717010
-    second: pedra 1_7
+      213: 6495797968832621177
+    second: SLIME FELIZ_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pedra 1_0
+      name: SLIME FELIZ_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 32
-        width: 16
-        height: 16
+        x: 2
+        y: 50
+        width: 17
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,20 +127,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a00928a4aa6d51b0800000000000000
-      internalID: -5666255500733775707
+      spriteID: a328990b8559a5a40800000000000000
+      internalID: 5357758914863137338
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pedra 1_1
+      name: SLIME FELIZ_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
-        width: 16
-        height: 16
+        x: 20
+        y: 50
+        width: 17
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,20 +148,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b10e0a76f4a65a60800000000000000
-      internalID: 7662493194534126000
+      spriteID: 578e8ad9937604350800000000000000
+      internalID: 5998908200813389941
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pedra 1_2
+      name: SLIME FELIZ_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 16
-        width: 16
-        height: 16
+        x: 42
+        y: 50
+        width: 19
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,20 +169,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd725a9351dee3980800000000000000
-      internalID: -8557141566540142625
+      spriteID: 4e7ec3c2f3daa98d0800000000000000
+      internalID: -2838766128266942492
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pedra 1_3
+      name: SLIME FELIZ_3
       rect:
         serializedVersion: 2
-        x: 16
-        y: 16
-        width: 16
-        height: 16
+        x: 2
+        y: 36
+        width: 17
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,20 +190,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf8aa6aeaceab2510800000000000000
-      internalID: 1525505085334530300
+      spriteID: 40c3ba907c9e2c3a0800000000000000
+      internalID: -6646493058975450108
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pedra 1_4
+      name: SLIME FELIZ_4
       rect:
         serializedVersion: 2
-        x: 32
-        y: 16
-        width: 16
-        height: 16
+        x: 20
+        y: 36
+        width: 17
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -211,20 +211,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19546ffb01b4aa730800000000000000
-      internalID: 4011100953438995857
+      spriteID: 1f4810eacd0417a10800000000000000
+      internalID: 1905375433910748401
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pedra 1_5
+      name: SLIME FELIZ_5
       rect:
         serializedVersion: 2
-        x: 48
-        y: 16
-        width: 16
-        height: 16
+        x: 42
+        y: 36
+        width: 19
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -232,20 +232,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3dda4ca340faca9a0800000000000000
-      internalID: -6220404552604799533
+      spriteID: c88175039d8ab4880800000000000000
+      internalID: -8625615010525669236
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pedra 1_6
+      name: SLIME FELIZ_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 16
-        height: 16
+        x: 1
+        y: 21
+        width: 19
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,20 +253,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f77b1392c43040c10800000000000000
-      internalID: 2018742158612346751
+      spriteID: 3ae86fbda227abac0800000000000000
+      internalID: -3838630203975364957
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pedra 1_7
+      name: SLIME FELIZ_7
       rect:
         serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 16
+        x: 22
+        y: 21
+        width: 19
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -274,8 +274,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6f3c097a7f0d63b0800000000000000
-      internalID: -5517736949767717010
+      spriteID: 97ae8f026d5b52a50800000000000000
+      internalID: 6495797968832621177
       vertices: []
       indices: 
       edges: []

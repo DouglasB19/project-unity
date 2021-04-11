@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class NPCController : MonoBehaviour
 {
-    //private Animator anim;
+    private Animator anim;
     public Transform homePos;
     public float speed;
 
@@ -16,7 +16,7 @@ public class NPCController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //anim = GetComponent<Animator>();
+        anim = GetComponent<Animator>();
         tempo = tempoEspera;
     }
 
@@ -28,8 +28,8 @@ public class NPCController : MonoBehaviour
 
     void GoHome()
     {
-        //anim.SetFloat("Horizontal", (homePos.position.x - transform.position.x));
-        //anim.SetFloat("Vertical", (homePos.position.y - transform.position.y));
+        anim.SetFloat("Horizontal", (homePos.position.x - transform.position.x));
+        anim.SetFloat("Vertical", (homePos.position.y - transform.position.y));
         
         transform.position = Vector3.MoveTowards(transform.position, homePos.transform.position, speed * Time.deltaTime);
             
@@ -37,13 +37,13 @@ public class NPCController : MonoBehaviour
         {
             if(tempo <= 0)
             {
-                //anim.SetBool("isRange", true);
+                anim.SetBool("isRange", true);
                 homePos.position = new Vector2(Random.Range(maxiPosition.x, miniPosition.x), Random.Range(maxiPosition.y, miniPosition.y));
                 tempo = tempoEspera;
             }
             else
             { 
-                //anim.SetBool("isRange", false);
+                anim.SetBool("isRange", false);
                 tempo -= Time.deltaTime;
             }
         }

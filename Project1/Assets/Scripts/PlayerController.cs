@@ -6,18 +6,18 @@ public class PlayerController : MonoBehaviour
 {
     public Animator anim;
     public float speed;
-    private Rigidbody2D rb;
-    
+
     private float attackTime = .25f;
     private float attackCounter = .25f;
     private bool isAttacking;
 
+    BoxCollider2D interactionCollider;
     Vector3 movement;
 
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        interactionCollider = transform.GetChild(4).GetComponent<BoxCollider2D>();
     }
 
     // Update is called once per frame
@@ -63,6 +63,11 @@ public class PlayerController : MonoBehaviour
             anim.SetBool("Attacking", true);
             isAttacking = true;
         }
+
+        if(movement != Vector3.zero)
+        {
+            interactionCollider.offset = new Vector2(movement.x/2, movement.y/2);
+        }
         
         MoveCharacter();
     }
@@ -70,14 +75,5 @@ public class PlayerController : MonoBehaviour
     void MoveCharacter()
     {
         transform.position = transform.position + movement.normalized * speed * Time.deltaTime;
-    }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if(other.tag == "Enemy")
-        {
-            Vector2 difference = transform.position - other.transform.position;
-            transform.position = new Vector2(transform.position.x + difference.x, transform.position.y + difference.y);
-        }
-    }
+    } 
 }

@@ -2,56 +2,94 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class DialogueController : MonoBehaviour
 {
+    //
+    private Queue<string> names;
+    //
+
+    private Queue<string> sentences;
+
     public GameObject dialogBox;
-    public Text nameText;
-    public Text dialogText;
+    public TextMeshProUGUI nameText;
+    public TextMeshProUGUI dialogText;
 
-    //public string[] name;
-    //public string[] dialog;
+    //
+    string nan;
+    //
 
-    public bool playerInRange;
+    string sentence;
+
+    float fadeTime = 0.02f;
     // Start is called before the first frame update
     void Start()
     {
-        //dialog = "[1]";
-        //name =  "[1]";
+        //
+        names = new Queue<string>();
+        //
+
+        sentences = new Queue<string>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space) && playerInRange)
+        
+    }
+
+    public void StartDialogue(Dialogue dialogue)
+    {
+        //nameText.text = dialogue.name;
+
+        //
+        names.Clear();
+        foreach (string nan in dialogue.name)
         {
-            if(dialogBox.activeInHierarchy)
-            {
-                dialogBox.SetActive(false);
-            }
-            else
-            {
-                dialogBox.SetActive(true);
-                //nameText.text = name;
-                //dialogText.text = dialog;
-            }
+            names.Enqueue(nan);
+        }
+        //
+
+        sentences.Clear();
+
+        foreach (string sentence in dialogue.sentences)
+        {
+            sentences.Enqueue(sentence);
+        }
+
+        DisplayNextSentence();
+    }
+
+    public void DisplayNextSentence()
+    {
+        //
+        if(sentences.Count == 0 && names.Count == 0)
+        {
+            EndDialogue();
+            return;
+        }
+        nan = names.Dequeue();
+        nameText.text = nan;
+        //
+
+        sentence = sentences.Dequeue();
+        StopAllCoroutines();
+        StartCoroutine(TypeSentence());
+    }
+
+    IEnumerator TypeSentence()
+    {
+        dialogText.text = "";
+        foreach (char letter in sentence.ToCharArray())
+        {
+            dialogText.text += letter;
+            yield return new WaitForSeconds(fadeTime);
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    public void EndDialogue()
     {
-        if(other.CompareTag("Player"))
-        {
-            playerInRange = true;
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if(other.CompareTag("Player"))
-        {
-            playerInRange = false;
-            dialogBox.SetActive(false);
-        }
+        dialogBox.SetActive(false);
     }
 }

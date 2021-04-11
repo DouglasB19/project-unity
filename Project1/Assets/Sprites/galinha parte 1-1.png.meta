@@ -1,31 +1,43 @@
 fileFormatVersion: 2
-guid: e989bfefd1948654da039d380b0536f5
+guid: d61e3b238a016da41bdcaf4c7155a75b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5666255500733775707
-    second: pedra 1_0
+      213: 7370435936327777553
+    second: galinha parte 1-1_0
   - first:
-      213: 7662493194534126000
-    second: pedra 1_1
+      213: 5258462179370084513
+    second: galinha parte 1-1_1
   - first:
-      213: -8557141566540142625
-    second: pedra 1_2
+      213: 5719452477716712448
+    second: galinha parte 1-1_2
   - first:
-      213: 1525505085334530300
-    second: pedra 1_3
+      213: 1688386988689150692
+    second: galinha parte 1-1_3
   - first:
-      213: 4011100953438995857
-    second: pedra 1_4
+      213: -1591699559241211469
+    second: galinha parte 1-1_4
   - first:
-      213: -6220404552604799533
-    second: pedra 1_5
+      213: 2223319778261506808
+    second: galinha parte 1-1_5
   - first:
-      213: 2018742158612346751
-    second: pedra 1_6
+      213: 4905722653593396145
+    second: galinha parte 1-1_6
   - first:
-      213: -5517736949767717010
-    second: pedra 1_7
+      213: -8525366890081599630
+    second: galinha parte 1-1_7
+  - first:
+      213: -4394415466745100672
+    second: galinha parte 1-1_8
+  - first:
+      213: -3531098828242872410
+    second: galinha parte 1-1_9
+  - first:
+      213: -7671219820314154534
+    second: galinha parte 1-1_10
+  - first:
+      213: 4196594967266046111
+    second: galinha parte 1-1_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -113,54 +125,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pedra 1_0
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5a00928a4aa6d51b0800000000000000
-      internalID: -5666255500733775707
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pedra 1_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0b10e0a76f4a65a60800000000000000
-      internalID: 7662493194534126000
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pedra 1_2
+      name: galinha parte 1-1_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 16
-        width: 16
+        y: 48
+        width: 13
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -169,19 +139,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd725a9351dee3980800000000000000
-      internalID: -8557141566540142625
+      spriteID: 11d37901f6c094660800000000000000
+      internalID: 7370435936327777553
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pedra 1_3
+      name: galinha parte 1-1_1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 16
-        width: 16
+        x: 14
+        y: 48
+        width: 13
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -190,19 +160,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf8aa6aeaceab2510800000000000000
-      internalID: 1525505085334530300
+      spriteID: 1a82e2add7fc9f840800000000000000
+      internalID: 5258462179370084513
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pedra 1_4
+      name: galinha parte 1-1_2
       rect:
         serializedVersion: 2
-        x: 32
-        y: 16
-        width: 16
+        x: 28
+        y: 48
+        width: 13
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -211,20 +181,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19546ffb01b4aa730800000000000000
-      internalID: 4011100953438995857
+      spriteID: 00c480cb9b39f5f40800000000000000
+      internalID: 5719452477716712448
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pedra 1_5
+      name: galinha parte 1-1_3
       rect:
         serializedVersion: 2
-        x: 48
-        y: 16
-        width: 16
-        height: 16
+        x: 42
+        y: 48
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -232,20 +202,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3dda4ca340faca9a0800000000000000
-      internalID: -6220404552604799533
+      spriteID: 4e25530550b5e6710800000000000000
+      internalID: 1688386988689150692
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pedra 1_6
+      name: galinha parte 1-1_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 16
-        height: 16
+        y: 27
+        width: 13
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,20 +223,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f77b1392c43040c10800000000000000
-      internalID: 2018742158612346751
+      spriteID: 3b1284e1fa529e9e0800000000000000
+      internalID: -1591699559241211469
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pedra 1_7
+      name: galinha parte 1-1_5
       rect:
         serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 16
+        x: 15
+        y: 27
+        width: 13
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -274,8 +244,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6f3c097a7f0d63b0800000000000000
-      internalID: -5517736949767717010
+      spriteID: 8fa90650f81dade10800000000000000
+      internalID: 2223319778261506808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galinha parte 1-1_6
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 27
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3650603c0a41440800000000000000
+      internalID: 4905722653593396145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galinha parte 1-1_7
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 27
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f3fc89bffcfa980800000000000000
+      internalID: -8525366890081599630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galinha parte 1-1_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0860d256a66e303c0800000000000000
+      internalID: -4394415466745100672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galinha parte 1-1_9
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 6
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a719c303540ffec0800000000000000
+      internalID: -3531098828242872410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galinha parte 1-1_10
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 6
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad92d30a73a5a8590800000000000000
+      internalID: -7671219820314154534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: galinha parte 1-1_11
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 6
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90b51263ec4d3a30800000000000000
+      internalID: 4196594967266046111
       vertices: []
       indices: 
       edges: []

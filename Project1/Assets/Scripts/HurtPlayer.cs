@@ -36,6 +36,8 @@ public class HurtPlayer : MonoBehaviour
     {
         if(other.collider.tag == "Player")
         {
+            Vector2 difference = other.transform.position - transform.position;
+            other.transform.position = new Vector2(other.transform.position.x + difference.x, other.transform.position.y + difference.y);
             other.gameObject.GetComponent<HealthManager>().HurtPlayer(damageToGive);//Duas Formas de HealthManager
         }
     }
